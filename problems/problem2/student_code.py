@@ -8,7 +8,7 @@ def ask_ollama(prompt):
         'accept': 'application/json',
         'Content-Type': 'application/json'
     }
-    model = "mario-model" # UPDATE TO YOUR MODEL
+    model = "deepireddy/mario-model:latest" # UPDATE TO YOUR MODEL
     system_prompt = "You are a helpful LLM."
 
     payload = {
